@@ -44,7 +44,6 @@ int kbhit(){
     return 0;
 }
 
-
 // Função para converter direção em texto
 string directionToText(char dir) {
     switch (dir) {
@@ -134,5 +133,6 @@ int main() {
     }
 
     cout << "Voce completou " << round - 1 << " rodada(s). Parabens!\n";
+
     return 0;
 }
